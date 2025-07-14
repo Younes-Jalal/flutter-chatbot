@@ -1,6 +1,6 @@
-import 'package:chatbot_saad/pages/chatbot.page.dart';
+import 'package:chatbot_younes/pages/chatbot.page.dart';
 import 'package:flutter/material.dart';
-import 'package:chatbot_saad/pages/login.page.dart';
+import 'package:chatbot_younes/pages/login.page.dart';
 
 void main() {
   runApp(MyApp());
