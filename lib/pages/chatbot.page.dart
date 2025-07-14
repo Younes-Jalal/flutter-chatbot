@@ -108,9 +108,7 @@ class _ChatbotPageState extends State<ChatbotPage> {
                 IconButton(
                   onPressed: () {
                     String question = userController.text;
-                    Uri uri = Uri.parse(
-                      "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyBrKugQFqn2KkjrLfEDb2ratjifqrOaQkY",
-                    );
+                    Uri uri = Uri.parse(env.APIKEY)                   );
                     var headers = {"Content-Type": "application/json"};
 
                     // Build conversation history for context
